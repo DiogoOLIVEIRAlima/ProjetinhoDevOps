@@ -1,7 +1,7 @@
 name: Projeto Integracao QA
 
 on:
-  push:
+  pull_request:
     branches: [ "QA" ]
 
 jobs:
